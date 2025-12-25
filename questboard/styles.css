@@ -1,0 +1,23 @@
+.quest-box {
+    background-color: #fdf6e3;
+    border: 2px solid #8b5e3c;
+    border-radius: 10px;
+    padding: 15px;
+    color: black;
+    margin-bottom: 15px;
+    box-shadow: 4px 4px 8px rgba(0,0,0,0.2);
+    font-family: 'Georgia', serif;
+    min-height: 100px;
+    max-width: 100%;
+    word-wrap: break-word;
+}
+.length-1 { min-height: 80px; }
+.length-2 { min-height: 120px; }
+.length-3 { min-height: 160px; }
+.length-4 { min-height: 200px; }
+.length-5 { min-height: 240px; }
+
+body {
+    background-image: url("http://localhost:8501/notice-board.png"); /* Optional medieval texture */
+    background-size: cover;
+}
